@@ -43,6 +43,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		93CFD8601B46FCF00006C684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7E7DE341A76DB7D004234B7;
+			remoteInfo = cocos2dMacFramework;
+		};
 		B737894A180761A90076A88C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
@@ -173,6 +180,7 @@
 				B737894B180761A90076A88C /* libcocos2d.a */,
 				BC2B438B1A77575C00F945C3 /* libcocos2dAndroid.a */,
 				BC2B438D1A77575C00F945C3 /* libcocos2d-mac.a */,
+				93CFD8611B46FCF00006C684 /* cocos2dMacFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -287,7 +295,7 @@
 				ORGANIZATIONNAME = Apportable;
 				TargetAttributes = {
 					B77F1B2D17B978D7009739AE = {
-						DevelopmentTeam = SBVP8ED765;
+						DevelopmentTeam = H27PE867C8;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 0;
@@ -320,6 +328,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		93CFD8611B46FCF00006C684 /* cocos2dMacFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = cocos2dMacFramework.framework;
+			remoteRef = 93CFD8601B46FCF00006C684 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		B737894B180761A90076A88C /* libcocos2d.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
